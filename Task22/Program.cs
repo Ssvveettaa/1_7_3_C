@@ -19,10 +19,8 @@ else
 
 void SquareTable(int num)
 {
-    int count = 1;
-    while (count <= number)
+    for (int count = 1; count <= num; count++)
     {
         Console.WriteLine($"{count, 5}{count * count, 10}"); // Форматирование вывода.
-        count++;
     }
 }
